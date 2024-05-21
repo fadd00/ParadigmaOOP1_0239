@@ -4,5 +4,13 @@
 using namespace std;
 
 class Manusia{
-    
-}
+public:
+    string name;
+    jantung varJantung;
+
+    manusia(string pName) : name(pName) {
+            cout << name << "hidup\n";
+        }
+        cout << name << "mati\n";
+};
+#endif
