@@ -14,8 +14,8 @@ class mahasiswa {
     }
     ~mahasiswa() {
         cout << "Id     = " << id << endl;
-        cout << "nama   = " << id << endl;
-        cout << "Nilai  = " << id << endl;
+        cout << "nama   = " << nama << endl;
+        cout << "Nilai  = " << nilai << endl;
     }
 };
 int main(){
